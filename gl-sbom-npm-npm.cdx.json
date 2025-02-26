@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:c5c627df-bfba-4e33-bc71-c9ece544841d",
+  "serialNumber": "urn:uuid:3d41cc41-a76d-4208-ba70-35e4d9668184",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-02-25T18:59:34Z",
+    "timestamp": "2025-02-26T23:27:28Z",
     "tools": [
       {
         "vendor": "GitLab",
@@ -88,10 +88,23 @@
     },
     {
       "name": "@babel/generator",
-      "version": "7.26.8",
-      "purl": "pkg:npm/@babel/generator@7.26.8",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/generator@7.26.9",
       "type": "library",
-      "bom-ref": "pkg:npm/@babel/generator@7.26.8",
+      "bom-ref": "pkg:npm/@babel/generator@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-annotate-as-pure",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/helper-annotate-as-pure@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-annotate-as-pure@7.25.9",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -105,6 +118,58 @@
       "purl": "pkg:npm/@babel/helper-compilation-targets@7.26.5",
       "type": "library",
       "bom-ref": "pkg:npm/@babel/helper-compilation-targets@7.26.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-create-class-features-plugin",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/helper-create-class-features-plugin@7.26.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-create-class-features-plugin@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-create-regexp-features-plugin",
+      "version": "7.26.3",
+      "purl": "pkg:npm/@babel/helper-create-regexp-features-plugin@7.26.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-create-regexp-features-plugin@7.26.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-define-polyfill-provider",
+      "version": "0.6.3",
+      "purl": "pkg:npm/@babel/helper-define-polyfill-provider@0.6.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-define-polyfill-provider@0.6.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-member-expression-to-functions",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/helper-member-expression-to-functions@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-member-expression-to-functions@7.25.9",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -139,11 +204,63 @@
       ]
     },
     {
+      "name": "@babel/helper-optimise-call-expression",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/helper-optimise-call-expression@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-optimise-call-expression@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "@babel/helper-plugin-utils",
       "version": "7.26.5",
       "purl": "pkg:npm/@babel/helper-plugin-utils@7.26.5",
       "type": "library",
       "bom-ref": "pkg:npm/@babel/helper-plugin-utils@7.26.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-remap-async-to-generator",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/helper-remap-async-to-generator@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-remap-async-to-generator@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-replace-supers",
+      "version": "7.26.5",
+      "purl": "pkg:npm/@babel/helper-replace-supers@7.26.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-replace-supers@7.26.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/helper-skip-transparent-expression-wrappers",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/helper-skip-transparent-expression-wrappers@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-skip-transparent-expression-wrappers@7.25.9",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -191,6 +308,19 @@
       ]
     },
     {
+      "name": "@babel/helper-wrap-function",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/helper-wrap-function@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/helper-wrap-function@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "@babel/helpers",
       "version": "7.26.7",
       "purl": "pkg:npm/@babel/helpers@7.26.7",
@@ -205,10 +335,101 @@
     },
     {
       "name": "@babel/parser",
-      "version": "7.26.8",
-      "purl": "pkg:npm/@babel/parser@7.26.8",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/parser@7.26.9",
       "type": "library",
-      "bom-ref": "pkg:npm/@babel/parser@7.26.8",
+      "bom-ref": "pkg:npm/@babel/parser@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-bugfix-firefox-class-in-computed-class-key",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-bugfix-safari-class-field-initializer-scope",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-bugfix-safari-class-field-initializer-scope@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-bugfix-safari-class-field-initializer-scope@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-proposal-export-default-from",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-proposal-export-default-from@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-proposal-export-default-from@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-proposal-private-property-in-object",
+      "version": "7.21.0-placeholder-for-preset-env.2",
+      "purl": "pkg:npm/@babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -261,6 +482,58 @@
       "purl": "pkg:npm/@babel/plugin-syntax-class-static-block@7.14.5",
       "type": "library",
       "bom-ref": "pkg:npm/@babel/plugin-syntax-class-static-block@7.14.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-syntax-dynamic-import",
+      "version": "7.8.3",
+      "purl": "pkg:npm/@babel/plugin-syntax-dynamic-import@7.8.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-syntax-dynamic-import@7.8.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-syntax-export-default-from",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-syntax-export-default-from@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-syntax-export-default-from@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-syntax-flow",
+      "version": "7.26.0",
+      "purl": "pkg:npm/@babel/plugin-syntax-flow@7.26.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-syntax-flow@7.26.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-syntax-import-assertions",
+      "version": "7.26.0",
+      "purl": "pkg:npm/@babel/plugin-syntax-import-assertions@7.26.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-syntax-import-assertions@7.26.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -438,11 +711,843 @@
       ]
     },
     {
-      "name": "@babel/template",
-      "version": "7.26.8",
-      "purl": "pkg:npm/@babel/template@7.26.8",
+      "name": "@babel/plugin-syntax-unicode-sets-regex",
+      "version": "7.18.6",
+      "purl": "pkg:npm/@babel/plugin-syntax-unicode-sets-regex@7.18.6",
       "type": "library",
-      "bom-ref": "pkg:npm/@babel/template@7.26.8",
+      "bom-ref": "pkg:npm/@babel/plugin-syntax-unicode-sets-regex@7.18.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-arrow-functions",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-arrow-functions@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-arrow-functions@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-async-generator-functions",
+      "version": "7.26.8",
+      "purl": "pkg:npm/@babel/plugin-transform-async-generator-functions@7.26.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-async-generator-functions@7.26.8",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-async-to-generator",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-async-to-generator@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-async-to-generator@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-block-scoped-functions",
+      "version": "7.26.5",
+      "purl": "pkg:npm/@babel/plugin-transform-block-scoped-functions@7.26.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-block-scoped-functions@7.26.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-block-scoping",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-block-scoping@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-block-scoping@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-class-properties",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-class-properties@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-class-properties@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-class-static-block",
+      "version": "7.26.0",
+      "purl": "pkg:npm/@babel/plugin-transform-class-static-block@7.26.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-class-static-block@7.26.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-classes",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-classes@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-classes@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-computed-properties",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-computed-properties@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-computed-properties@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-destructuring",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-destructuring@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-destructuring@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-dotall-regex",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-dotall-regex@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-dotall-regex@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-duplicate-keys",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-duplicate-keys@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-duplicate-keys@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-duplicate-named-capturing-groups-regex",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-duplicate-named-capturing-groups-regex@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-duplicate-named-capturing-groups-regex@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-dynamic-import",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-dynamic-import@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-dynamic-import@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-exponentiation-operator",
+      "version": "7.26.3",
+      "purl": "pkg:npm/@babel/plugin-transform-exponentiation-operator@7.26.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-exponentiation-operator@7.26.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-export-namespace-from",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-export-namespace-from@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-export-namespace-from@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-flow-strip-types",
+      "version": "7.26.5",
+      "purl": "pkg:npm/@babel/plugin-transform-flow-strip-types@7.26.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-flow-strip-types@7.26.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-for-of",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/plugin-transform-for-of@7.26.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-for-of@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-function-name",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-function-name@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-function-name@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-json-strings",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-json-strings@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-json-strings@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-literals",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-literals@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-literals@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-logical-assignment-operators",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-logical-assignment-operators@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-logical-assignment-operators@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-member-expression-literals",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-member-expression-literals@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-member-expression-literals@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-modules-amd",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-modules-amd@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-modules-amd@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-modules-commonjs",
+      "version": "7.26.3",
+      "purl": "pkg:npm/@babel/plugin-transform-modules-commonjs@7.26.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-modules-commonjs@7.26.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-modules-systemjs",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-modules-systemjs@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-modules-systemjs@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-modules-umd",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-modules-umd@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-modules-umd@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-named-capturing-groups-regex",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-named-capturing-groups-regex@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-named-capturing-groups-regex@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-new-target",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-new-target@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-new-target@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-nullish-coalescing-operator",
+      "version": "7.26.6",
+      "purl": "pkg:npm/@babel/plugin-transform-nullish-coalescing-operator@7.26.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-nullish-coalescing-operator@7.26.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-numeric-separator",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-numeric-separator@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-numeric-separator@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-object-rest-spread",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-object-rest-spread@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-object-rest-spread@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-object-super",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-object-super@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-object-super@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-optional-catch-binding",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-optional-catch-binding@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-optional-catch-binding@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-optional-chaining",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-optional-chaining@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-optional-chaining@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-parameters",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-parameters@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-parameters@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-private-methods",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-private-methods@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-private-methods@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-private-property-in-object",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-private-property-in-object@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-private-property-in-object@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-property-literals",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-property-literals@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-property-literals@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-react-display-name",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-react-display-name@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-react-display-name@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-react-jsx@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-react-jsx@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-self",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-react-jsx-self@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-react-jsx-self@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-react-jsx-source",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-react-jsx-source@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-react-jsx-source@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-regenerator",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-regenerator@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-regenerator@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-regexp-modifiers",
+      "version": "7.26.0",
+      "purl": "pkg:npm/@babel/plugin-transform-regexp-modifiers@7.26.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-regexp-modifiers@7.26.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-reserved-words",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-reserved-words@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-reserved-words@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-runtime",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/plugin-transform-runtime@7.26.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-runtime@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-shorthand-properties",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-shorthand-properties@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-shorthand-properties@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-spread",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-spread@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-spread@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-sticky-regex",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-sticky-regex@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-sticky-regex@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-template-literals",
+      "version": "7.26.8",
+      "purl": "pkg:npm/@babel/plugin-transform-template-literals@7.26.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-template-literals@7.26.8",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-typeof-symbol",
+      "version": "7.26.7",
+      "purl": "pkg:npm/@babel/plugin-transform-typeof-symbol@7.26.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-typeof-symbol@7.26.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-typescript",
+      "version": "7.26.8",
+      "purl": "pkg:npm/@babel/plugin-transform-typescript@7.26.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-typescript@7.26.8",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-unicode-escapes",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-unicode-escapes@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-unicode-escapes@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-unicode-property-regex",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-unicode-property-regex@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-unicode-property-regex@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-unicode-regex",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-unicode-regex@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-unicode-regex@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/plugin-transform-unicode-sets-regex",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/plugin-transform-unicode-sets-regex@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/plugin-transform-unicode-sets-regex@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/preset-env",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/preset-env@7.26.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/preset-env@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/preset-flow",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/preset-flow@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/preset-flow@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/preset-modules",
+      "version": "0.1.6-no-external-plugins",
+      "purl": "pkg:npm/@babel/preset-modules@0.1.6-no-external-plugins",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/preset-modules@0.1.6-no-external-plugins",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/preset-typescript",
+      "version": "7.26.0",
+      "purl": "pkg:npm/@babel/preset-typescript@7.26.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/preset-typescript@7.26.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/register",
+      "version": "7.25.9",
+      "purl": "pkg:npm/@babel/register@7.25.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/register@7.25.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/runtime",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/runtime@7.26.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/runtime@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/template@7.26.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/template@7.26.9",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -452,10 +1557,23 @@
     },
     {
       "name": "@babel/traverse",
-      "version": "7.26.8",
-      "purl": "pkg:npm/@babel/traverse@7.26.8",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/traverse@7.26.9",
       "type": "library",
-      "bom-ref": "pkg:npm/@babel/traverse@7.26.8",
+      "bom-ref": "pkg:npm/@babel/traverse@7.26.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@babel/traverse--for-generate-function-map",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/traverse--for-generate-function-map@7.26.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/@babel/traverse--for-generate-function-map@7.26.9",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -465,10 +1583,10 @@
     },
     {
       "name": "@babel/types",
-      "version": "7.26.8",
-      "purl": "pkg:npm/@babel/types@7.26.8",
+      "version": "7.26.9",
+      "purl": "pkg:npm/@babel/types@7.26.9",
       "type": "library",
-      "bom-ref": "pkg:npm/@babel/types@7.26.8",
+      "bom-ref": "pkg:npm/@babel/types@7.26.9",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -482,6 +1600,19 @@
       "purl": "pkg:npm/@bcoe/v8-coverage@0.2.3",
       "type": "library",
       "bom-ref": "pkg:npm/@bcoe/v8-coverage@0.2.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@isaacs/ttlcache",
+      "version": "1.4.1",
+      "purl": "pkg:npm/@isaacs/ttlcache@1.4.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@isaacs/ttlcache@1.4.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -534,6 +1665,19 @@
       "purl": "pkg:npm/@jest/core@29.7.0",
       "type": "library",
       "bom-ref": "pkg:npm/@jest/core@29.7.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@jest/create-cache-key-function",
+      "version": "29.7.0",
+      "purl": "pkg:npm/@jest/create-cache-key-function@29.7.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@jest/create-cache-key-function@29.7.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -737,6 +1881,19 @@
       ]
     },
     {
+      "name": "@jridgewell/source-map",
+      "version": "0.3.6",
+      "purl": "pkg:npm/@jridgewell/source-map@0.3.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/@jridgewell/source-map@0.3.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "@jridgewell/sourcemap-codec",
       "version": "1.5.0",
       "purl": "pkg:npm/@jridgewell/sourcemap-codec@1.5.0",
@@ -776,6 +1933,175 @@
       ]
     },
     {
+      "name": "@puppeteer/browsers",
+      "version": "2.7.1",
+      "purl": "pkg:npm/@puppeteer/browsers@2.7.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/@puppeteer/browsers@2.7.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/assets-registry",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/assets-registry@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/assets-registry@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/babel-plugin-codegen",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/babel-plugin-codegen@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/babel-plugin-codegen@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/babel-preset",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/babel-preset@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/babel-preset@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/codegen",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/codegen@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/codegen@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/community-cli-plugin",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/community-cli-plugin@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/community-cli-plugin@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/debugger-frontend",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/debugger-frontend@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/debugger-frontend@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/dev-middleware",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/dev-middleware@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/dev-middleware@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/gradle-plugin",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/gradle-plugin@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/gradle-plugin@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/js-polyfills",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/js-polyfills@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/js-polyfills@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/metro-babel-transformer",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/metro-babel-transformer@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/metro-babel-transformer@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/normalize-colors",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/normalize-colors@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/normalize-colors@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@react-native/virtualized-lists",
+      "version": "0.78.0",
+      "purl": "pkg:npm/@react-native/virtualized-lists@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@react-native/virtualized-lists@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "@sinclair/typebox",
       "version": "0.27.8",
       "purl": "pkg:npm/@sinclair/typebox@0.27.8",
@@ -807,6 +2133,32 @@
       "purl": "pkg:npm/@sinonjs/fake-timers@10.3.0",
       "type": "library",
       "bom-ref": "pkg:npm/@sinonjs/fake-timers@10.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@socket.io/component-emitter",
+      "version": "3.1.2",
+      "purl": "pkg:npm/@socket.io/component-emitter@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/@socket.io/component-emitter@3.1.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@tootallnate/quickjs-emscripten",
+      "version": "0.23.0",
+      "purl": "pkg:npm/@tootallnate/quickjs-emscripten@0.23.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@tootallnate/quickjs-emscripten@0.23.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -872,6 +2224,19 @@
       "purl": "pkg:npm/@types/bcrypt@5.0.2",
       "type": "library",
       "bom-ref": "pkg:npm/@types/bcrypt@5.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@types/cors",
+      "version": "2.8.17",
+      "purl": "pkg:npm/@types/cors@2.8.17",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/cors@2.8.17",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -984,6 +2349,19 @@
       ]
     },
     {
+      "name": "@types/node-forge",
+      "version": "1.3.11",
+      "purl": "pkg:npm/@types/node-forge@1.3.11",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/node-forge@1.3.11",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "@types/stack-utils",
       "version": "2.0.3",
       "purl": "pkg:npm/@types/stack-utils@2.0.3",
@@ -1023,11 +2401,37 @@
       ]
     },
     {
+      "name": "@types/yauzl",
+      "version": "2.10.3",
+      "purl": "pkg:npm/@types/yauzl@2.10.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/yauzl@2.10.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "abbrev",
       "version": "1.1.1",
       "purl": "pkg:npm/abbrev@1.1.1",
       "type": "library",
       "bom-ref": "pkg:npm/abbrev@1.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "abort-controller",
+      "version": "3.0.0",
+      "purl": "pkg:npm/abort-controller@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/abort-controller@3.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1049,11 +2453,63 @@
       ]
     },
     {
+      "name": "acorn",
+      "version": "8.14.0",
+      "purl": "pkg:npm/acorn@8.14.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/acorn@8.14.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "agent-base",
       "version": "6.0.2",
       "purl": "pkg:npm/agent-base@6.0.2",
       "type": "library",
       "bom-ref": "pkg:npm/agent-base@6.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.3",
+      "purl": "pkg:npm/agent-base@7.1.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/agent-base@7.1.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "agentkeepalive",
+      "version": "3.5.3",
+      "purl": "pkg:npm/agentkeepalive@3.5.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/agentkeepalive@3.5.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "anser",
+      "version": "1.4.10",
+      "purl": "pkg:npm/anser@1.4.10",
+      "type": "library",
+      "bom-ref": "pkg:npm/anser@1.4.10",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1166,6 +2622,19 @@
       ]
     },
     {
+      "name": "argparse",
+      "version": "2.0.1",
+      "purl": "pkg:npm/argparse@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/argparse@2.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "array-flatten",
       "version": "1.1.1",
       "purl": "pkg:npm/array-flatten@1.1.1",
@@ -1192,6 +2661,45 @@
       ]
     },
     {
+      "name": "ast-types",
+      "version": "0.13.4",
+      "purl": "pkg:npm/ast-types@0.13.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/ast-types@0.13.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ast-types",
+      "version": "0.16.1",
+      "purl": "pkg:npm/ast-types@0.16.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ast-types@0.16.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "async-limiter",
+      "version": "1.0.1",
+      "purl": "pkg:npm/async-limiter@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/async-limiter@1.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "asynckit",
       "version": "0.4.0",
       "purl": "pkg:npm/asynckit@0.4.0",
@@ -1210,6 +2718,19 @@
       "purl": "pkg:npm/axios@1.7.7",
       "type": "library",
       "bom-ref": "pkg:npm/axios@1.7.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "b4a",
+      "version": "1.6.7",
+      "purl": "pkg:npm/b4a@1.6.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/b4a@1.6.7",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1257,6 +2778,84 @@
       ]
     },
     {
+      "name": "babel-plugin-polyfill-corejs2",
+      "version": "0.4.12",
+      "purl": "pkg:npm/babel-plugin-polyfill-corejs2@0.4.12",
+      "type": "library",
+      "bom-ref": "pkg:npm/babel-plugin-polyfill-corejs2@0.4.12",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "babel-plugin-polyfill-corejs3",
+      "version": "0.10.6",
+      "purl": "pkg:npm/babel-plugin-polyfill-corejs3@0.10.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/babel-plugin-polyfill-corejs3@0.10.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "babel-plugin-polyfill-corejs3",
+      "version": "0.11.1",
+      "purl": "pkg:npm/babel-plugin-polyfill-corejs3@0.11.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/babel-plugin-polyfill-corejs3@0.11.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "babel-plugin-polyfill-regenerator",
+      "version": "0.6.3",
+      "purl": "pkg:npm/babel-plugin-polyfill-regenerator@0.6.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/babel-plugin-polyfill-regenerator@0.6.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "babel-plugin-syntax-hermes-parser",
+      "version": "0.25.1",
+      "purl": "pkg:npm/babel-plugin-syntax-hermes-parser@0.25.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/babel-plugin-syntax-hermes-parser@0.25.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "babel-plugin-transform-flow-enums",
+      "version": "0.0.2",
+      "purl": "pkg:npm/babel-plugin-transform-flow-enums@0.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/babel-plugin-transform-flow-enums@0.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "babel-preset-current-node-syntax",
       "version": "1.1.0",
       "purl": "pkg:npm/babel-preset-current-node-syntax@1.1.0",
@@ -1288,6 +2887,110 @@
       "purl": "pkg:npm/balanced-match@1.0.2",
       "type": "library",
       "bom-ref": "pkg:npm/balanced-match@1.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "bare-events",
+      "version": "2.5.4",
+      "purl": "pkg:npm/bare-events@2.5.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/bare-events@2.5.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "bare-fs",
+      "version": "4.0.1",
+      "purl": "pkg:npm/bare-fs@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/bare-fs@4.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "bare-os",
+      "version": "3.4.0",
+      "purl": "pkg:npm/bare-os@3.4.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/bare-os@3.4.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "bare-path",
+      "version": "3.0.0",
+      "purl": "pkg:npm/bare-path@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/bare-path@3.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "bare-stream",
+      "version": "2.6.5",
+      "purl": "pkg:npm/bare-stream@2.6.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/bare-stream@2.6.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "purl": "pkg:npm/base64-js@1.5.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/base64-js@1.5.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "base64id",
+      "version": "2.0.0",
+      "purl": "pkg:npm/base64id@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/base64id@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "basic-ftp",
+      "version": "5.0.5",
+      "purl": "pkg:npm/basic-ftp@5.0.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/basic-ftp@5.0.5",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1387,6 +3090,45 @@
       ]
     },
     {
+      "name": "buffer",
+      "version": "5.7.1",
+      "purl": "pkg:npm/buffer@5.7.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/buffer@5.7.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "buffer",
+      "version": "6.0.3",
+      "purl": "pkg:npm/buffer@6.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/buffer@6.0.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "buffer-crc32",
+      "version": "0.2.13",
+      "purl": "pkg:npm/buffer-crc32@0.2.13",
+      "type": "library",
+      "bom-ref": "pkg:npm/buffer-crc32@0.2.13",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "buffer-equal-constant-time",
       "version": "1.0.1",
       "purl": "pkg:npm/buffer-equal-constant-time@1.0.1",
@@ -1431,6 +3173,45 @@
       "purl": "pkg:npm/call-bind@1.0.7",
       "type": "library",
       "bom-ref": "pkg:npm/call-bind@1.0.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "caller-callsite",
+      "version": "2.0.0",
+      "purl": "pkg:npm/caller-callsite@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/caller-callsite@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "caller-path",
+      "version": "2.0.0",
+      "purl": "pkg:npm/caller-path@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/caller-path@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "callsites",
+      "version": "2.0.0",
+      "purl": "pkg:npm/callsites@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/callsites@2.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1491,6 +3272,32 @@
       ]
     },
     {
+      "name": "cbor-js",
+      "version": "0.1.0",
+      "purl": "pkg:npm/cbor-js@0.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/cbor-js@0.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "cbor-sync",
+      "version": "1.0.4",
+      "purl": "pkg:npm/cbor-sync@1.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/cbor-sync@1.0.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "chalk",
       "version": "4.1.2",
       "purl": "pkg:npm/chalk@4.1.2",
@@ -1543,6 +3350,58 @@
       ]
     },
     {
+      "name": "chrome-launcher",
+      "version": "0.15.2",
+      "purl": "pkg:npm/chrome-launcher@0.15.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/chrome-launcher@0.15.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "chromium-bidi",
+      "version": "2.0.0",
+      "purl": "pkg:npm/chromium-bidi@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/chromium-bidi@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "chromium-edge-launcher",
+      "version": "0.2.0",
+      "purl": "pkg:npm/chromium-edge-launcher@0.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/chromium-edge-launcher@0.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ci-info",
+      "version": "2.0.0",
+      "purl": "pkg:npm/ci-info@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/ci-info@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "ci-info",
       "version": "3.9.0",
       "purl": "pkg:npm/ci-info@3.9.0",
@@ -1574,6 +3433,19 @@
       "purl": "pkg:npm/cliui@8.0.1",
       "type": "library",
       "bom-ref": "pkg:npm/cliui@8.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "clone-deep",
+      "version": "4.0.1",
+      "purl": "pkg:npm/clone-deep@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/clone-deep@4.0.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1660,6 +3532,45 @@
       ]
     },
     {
+      "name": "commander",
+      "version": "12.1.0",
+      "purl": "pkg:npm/commander@12.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/commander@12.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "commander",
+      "version": "2.20.3",
+      "purl": "pkg:npm/commander@2.20.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/commander@2.20.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "commondir",
+      "version": "1.0.1",
+      "purl": "pkg:npm/commondir@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/commondir@1.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "component-emitter",
       "version": "1.3.1",
       "purl": "pkg:npm/component-emitter@1.3.1",
@@ -1678,6 +3589,19 @@
       "purl": "pkg:npm/concat-map@0.0.1",
       "type": "library",
       "bom-ref": "pkg:npm/concat-map@0.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "connect",
+      "version": "3.7.0",
+      "purl": "pkg:npm/connect@3.7.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/connect@3.7.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1751,6 +3675,19 @@
       ]
     },
     {
+      "name": "cookie",
+      "version": "0.7.2",
+      "purl": "pkg:npm/cookie@0.7.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie@0.7.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "cookie-signature",
       "version": "1.0.6",
       "purl": "pkg:npm/cookie-signature@1.0.6",
@@ -1777,11 +3714,50 @@
       ]
     },
     {
+      "name": "core-js-compat",
+      "version": "3.40.0",
+      "purl": "pkg:npm/core-js-compat@3.40.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/core-js-compat@3.40.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "cors",
       "version": "2.8.5",
       "purl": "pkg:npm/cors@2.8.5",
       "type": "library",
       "bom-ref": "pkg:npm/cors@2.8.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "cosmiconfig",
+      "version": "5.2.1",
+      "purl": "pkg:npm/cosmiconfig@5.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/cosmiconfig@5.2.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "cosmiconfig",
+      "version": "9.0.0",
+      "purl": "pkg:npm/cosmiconfig@9.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/cosmiconfig@9.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1816,11 +3792,37 @@
       ]
     },
     {
+      "name": "data-uri-to-buffer",
+      "version": "6.0.2",
+      "purl": "pkg:npm/data-uri-to-buffer@6.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/data-uri-to-buffer@6.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "debug",
       "version": "2.6.9",
       "purl": "pkg:npm/debug@2.6.9",
       "type": "library",
       "bom-ref": "pkg:npm/debug@2.6.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "debug",
+      "version": "4.3.7",
+      "purl": "pkg:npm/debug@4.3.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@4.3.7",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1873,6 +3875,19 @@
       "purl": "pkg:npm/define-data-property@1.1.4",
       "type": "library",
       "bom-ref": "pkg:npm/define-data-property@1.1.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "degenerator",
+      "version": "5.0.1",
+      "purl": "pkg:npm/degenerator@5.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/degenerator@5.0.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -1951,6 +3966,19 @@
       "purl": "pkg:npm/detect-newline@3.1.0",
       "type": "library",
       "bom-ref": "pkg:npm/detect-newline@3.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "devtools-protocol",
+      "version": "0.0.1402036",
+      "purl": "pkg:npm/devtools-protocol@0.0.1402036",
+      "type": "library",
+      "bom-ref": "pkg:npm/devtools-protocol@0.0.1402036",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2089,11 +4117,76 @@
       ]
     },
     {
+      "name": "end-of-stream",
+      "version": "1.4.4",
+      "purl": "pkg:npm/end-of-stream@1.4.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/end-of-stream@1.4.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "engine.io",
+      "version": "6.6.4",
+      "purl": "pkg:npm/engine.io@6.6.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/engine.io@6.6.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "engine.io-parser",
+      "version": "5.2.3",
+      "purl": "pkg:npm/engine.io-parser@5.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/engine.io-parser@5.2.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "env-paths",
+      "version": "2.2.1",
+      "purl": "pkg:npm/env-paths@2.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/env-paths@2.2.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "error-ex",
       "version": "1.3.2",
       "purl": "pkg:npm/error-ex@1.3.2",
       "type": "library",
       "bom-ref": "pkg:npm/error-ex@1.3.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "error-stack-parser",
+      "version": "2.1.4",
+      "purl": "pkg:npm/error-stack-parser@2.1.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/error-stack-parser@2.1.4",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2167,6 +4260,32 @@
       ]
     },
     {
+      "name": "escape-string-regexp",
+      "version": "4.0.0",
+      "purl": "pkg:npm/escape-string-regexp@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/escape-string-regexp@4.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "escodegen",
+      "version": "2.1.0",
+      "purl": "pkg:npm/escodegen@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/escodegen@2.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "esprima",
       "version": "4.0.1",
       "purl": "pkg:npm/esprima@4.0.1",
@@ -2180,11 +4299,50 @@
       ]
     },
     {
+      "name": "estraverse",
+      "version": "5.3.0",
+      "purl": "pkg:npm/estraverse@5.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/estraverse@5.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "esutils",
+      "version": "2.0.3",
+      "purl": "pkg:npm/esutils@2.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/esutils@2.0.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "etag",
       "version": "1.8.1",
       "purl": "pkg:npm/etag@1.8.1",
       "type": "library",
       "bom-ref": "pkg:npm/etag@1.8.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "event-target-shim",
+      "version": "5.0.1",
+      "purl": "pkg:npm/event-target-shim@5.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/event-target-shim@5.0.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2232,6 +4390,19 @@
       ]
     },
     {
+      "name": "exponential-backoff",
+      "version": "3.1.2",
+      "purl": "pkg:npm/exponential-backoff@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/exponential-backoff@3.1.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "express",
       "version": "4.21.1",
       "purl": "pkg:npm/express@4.21.1",
@@ -2263,6 +4434,32 @@
       "purl": "pkg:npm/express-validator@7.2.1",
       "type": "library",
       "bom-ref": "pkg:npm/express-validator@7.2.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "extract-zip",
+      "version": "2.0.1",
+      "purl": "pkg:npm/extract-zip@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/extract-zip@2.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "fast-fifo",
+      "version": "1.3.2",
+      "purl": "pkg:npm/fast-fifo@1.3.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/fast-fifo@1.3.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2310,11 +4507,37 @@
       ]
     },
     {
+      "name": "fd-slicer",
+      "version": "1.1.0",
+      "purl": "pkg:npm/fd-slicer@1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/fd-slicer@1.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "fill-range",
       "version": "7.1.1",
       "purl": "pkg:npm/fill-range@7.1.1",
       "type": "library",
       "bom-ref": "pkg:npm/fill-range@7.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "finalhandler",
+      "version": "1.1.2",
+      "purl": "pkg:npm/finalhandler@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/finalhandler@1.1.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2336,11 +4559,63 @@
       ]
     },
     {
+      "name": "find-cache-dir",
+      "version": "2.1.0",
+      "purl": "pkg:npm/find-cache-dir@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/find-cache-dir@2.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "find-up",
+      "version": "3.0.0",
+      "purl": "pkg:npm/find-up@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/find-up@3.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "find-up",
       "version": "4.1.0",
       "purl": "pkg:npm/find-up@4.1.0",
       "type": "library",
       "bom-ref": "pkg:npm/find-up@4.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "flow-enums-runtime",
+      "version": "0.0.6",
+      "purl": "pkg:npm/flow-enums-runtime@0.0.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/flow-enums-runtime@0.0.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "flow-parser",
+      "version": "0.261.2",
+      "purl": "pkg:npm/flow-parser@0.261.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/flow-parser@0.261.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2532,10 +4807,36 @@
     },
     {
       "name": "get-stream",
+      "version": "5.2.0",
+      "purl": "pkg:npm/get-stream@5.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/get-stream@5.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "get-stream",
       "version": "6.0.1",
       "purl": "pkg:npm/get-stream@6.0.1",
       "type": "library",
       "bom-ref": "pkg:npm/get-stream@6.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "get-uri",
+      "version": "6.0.4",
+      "purl": "pkg:npm/get-uri@6.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/get-uri@6.0.4",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2700,6 +5001,32 @@
       ]
     },
     {
+      "name": "hermes-estree",
+      "version": "0.25.1",
+      "purl": "pkg:npm/hermes-estree@0.25.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/hermes-estree@0.25.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "hermes-parser",
+      "version": "0.25.1",
+      "purl": "pkg:npm/hermes-parser@0.25.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/hermes-parser@0.25.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "hexoid",
       "version": "2.0.0",
       "purl": "pkg:npm/hexoid@2.0.0",
@@ -2739,11 +5066,37 @@
       ]
     },
     {
+      "name": "http-proxy-agent",
+      "version": "7.0.2",
+      "purl": "pkg:npm/http-proxy-agent@7.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/http-proxy-agent@7.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "https-proxy-agent",
       "version": "5.0.1",
       "purl": "pkg:npm/https-proxy-agent@5.0.1",
       "type": "library",
       "bom-ref": "pkg:npm/https-proxy-agent@5.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "purl": "pkg:npm/https-proxy-agent@7.0.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/https-proxy-agent@7.0.6",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2765,6 +5118,19 @@
       ]
     },
     {
+      "name": "humanize-ms",
+      "version": "1.2.1",
+      "purl": "pkg:npm/humanize-ms@1.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/humanize-ms@1.2.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "iconv-lite",
       "version": "0.4.24",
       "purl": "pkg:npm/iconv-lite@0.4.24",
@@ -2778,11 +5144,63 @@
       ]
     },
     {
+      "name": "ieee754",
+      "version": "1.2.1",
+      "purl": "pkg:npm/ieee754@1.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ieee754@1.2.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "ignore-by-default",
       "version": "1.0.1",
       "purl": "pkg:npm/ignore-by-default@1.0.1",
       "type": "library",
       "bom-ref": "pkg:npm/ignore-by-default@1.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "image-size",
+      "version": "1.2.0",
+      "purl": "pkg:npm/image-size@1.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/image-size@1.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "import-fresh",
+      "version": "2.0.0",
+      "purl": "pkg:npm/import-fresh@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/import-fresh@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "import-fresh",
+      "version": "3.3.1",
+      "purl": "pkg:npm/import-fresh@3.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/import-fresh@3.3.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2843,6 +5261,32 @@
       ]
     },
     {
+      "name": "invariant",
+      "version": "2.2.4",
+      "purl": "pkg:npm/invariant@2.2.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/invariant@2.2.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ip-address",
+      "version": "9.0.5",
+      "purl": "pkg:npm/ip-address@9.0.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/ip-address@9.0.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "ipaddr.js",
       "version": "1.9.1",
       "purl": "pkg:npm/ipaddr.js@1.9.1",
@@ -2887,6 +5331,32 @@
       "purl": "pkg:npm/is-core-module@2.16.1",
       "type": "library",
       "bom-ref": "pkg:npm/is-core-module@2.16.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "is-directory",
+      "version": "0.3.1",
+      "purl": "pkg:npm/is-directory@0.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-directory@0.3.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "is-docker",
+      "version": "2.2.1",
+      "purl": "pkg:npm/is-docker@2.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-docker@2.2.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2960,6 +5430,19 @@
       ]
     },
     {
+      "name": "is-plain-object",
+      "version": "2.0.4",
+      "purl": "pkg:npm/is-plain-object@2.0.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-plain-object@2.0.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "is-stream",
       "version": "2.0.1",
       "purl": "pkg:npm/is-stream@2.0.1",
@@ -2973,11 +5456,37 @@
       ]
     },
     {
+      "name": "is-wsl",
+      "version": "2.2.0",
+      "purl": "pkg:npm/is-wsl@2.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-wsl@2.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "isexe",
       "version": "2.0.0",
       "purl": "pkg:npm/isexe@2.0.0",
       "type": "library",
       "bom-ref": "pkg:npm/isexe@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "isobject",
+      "version": "3.0.1",
+      "purl": "pkg:npm/isobject@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/isobject@3.0.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -3428,11 +5937,89 @@
       ]
     },
     {
+      "name": "js-yaml",
+      "version": "4.1.0",
+      "purl": "pkg:npm/js-yaml@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/js-yaml@4.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jsbn",
+      "version": "1.1.0",
+      "purl": "pkg:npm/jsbn@1.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/jsbn@1.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jsc-safe-url",
+      "version": "0.2.4",
+      "purl": "pkg:npm/jsc-safe-url@0.2.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/jsc-safe-url@0.2.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jscodeshift",
+      "version": "17.1.2",
+      "purl": "pkg:npm/jscodeshift@17.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/jscodeshift@17.1.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "jsesc",
+      "version": "3.0.2",
+      "purl": "pkg:npm/jsesc@3.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/jsesc@3.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "jsesc",
       "version": "3.1.0",
       "purl": "pkg:npm/jsesc@3.1.0",
       "type": "library",
       "bom-ref": "pkg:npm/jsesc@3.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "json-parse-better-errors",
+      "version": "1.0.2",
+      "purl": "pkg:npm/json-parse-better-errors@1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/json-parse-better-errors@1.0.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -3506,6 +6093,19 @@
       ]
     },
     {
+      "name": "kind-of",
+      "version": "6.0.3",
+      "purl": "pkg:npm/kind-of@6.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/kind-of@6.0.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "kleur",
       "version": "3.0.3",
       "purl": "pkg:npm/kleur@3.0.3",
@@ -3532,11 +6132,50 @@
       ]
     },
     {
+      "name": "lighthouse-logger",
+      "version": "1.4.2",
+      "purl": "pkg:npm/lighthouse-logger@1.4.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/lighthouse-logger@1.4.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "lil-uuid",
+      "version": "0.1.1",
+      "purl": "pkg:npm/lil-uuid@0.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/lil-uuid@0.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "lines-and-columns",
       "version": "1.2.4",
       "purl": "pkg:npm/lines-and-columns@1.2.4",
       "type": "library",
       "bom-ref": "pkg:npm/lines-and-columns@1.2.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "locate-path",
+      "version": "3.0.0",
+      "purl": "pkg:npm/locate-path@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/locate-path@3.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -3563,6 +6202,19 @@
       "purl": "pkg:npm/lodash@4.17.21",
       "type": "library",
       "bom-ref": "pkg:npm/lodash@4.17.21",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "lodash.debounce",
+      "version": "4.0.8",
+      "purl": "pkg:npm/lodash.debounce@4.0.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash.debounce@4.0.8",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -3662,11 +6314,63 @@
       ]
     },
     {
+      "name": "lodash.throttle",
+      "version": "4.1.1",
+      "purl": "pkg:npm/lodash.throttle@4.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash.throttle@4.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "purl": "pkg:npm/loose-envify@1.4.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/loose-envify@1.4.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "lru-cache",
       "version": "5.1.1",
       "purl": "pkg:npm/lru-cache@5.1.1",
       "type": "library",
       "bom-ref": "pkg:npm/lru-cache@5.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "lru-cache",
+      "version": "7.18.3",
+      "purl": "pkg:npm/lru-cache@7.18.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/lru-cache@7.18.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "make-dir",
+      "version": "2.1.0",
+      "purl": "pkg:npm/make-dir@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/make-dir@2.1.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -3714,11 +6418,37 @@
       ]
     },
     {
+      "name": "marky",
+      "version": "1.2.5",
+      "purl": "pkg:npm/marky@1.2.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/marky@1.2.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "media-typer",
       "version": "0.3.0",
       "purl": "pkg:npm/media-typer@0.3.0",
       "type": "library",
       "bom-ref": "pkg:npm/media-typer@0.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "memoize-one",
+      "version": "5.2.1",
+      "purl": "pkg:npm/memoize-one@5.2.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/memoize-one@5.2.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -3758,6 +6488,188 @@
       "purl": "pkg:npm/methods@1.1.2",
       "type": "library",
       "bom-ref": "pkg:npm/methods@1.1.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-babel-transformer",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-babel-transformer@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-babel-transformer@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-cache",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-cache@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-cache@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-cache-key",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-cache-key@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-cache-key@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-config",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-config@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-config@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-core",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-core@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-core@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-file-map",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-file-map@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-file-map@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-minify-terser",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-minify-terser@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-minify-terser@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-resolver",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-resolver@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-resolver@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-runtime",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-runtime@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-runtime@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-source-map",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-source-map@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-source-map@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-symbolicate",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-symbolicate@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-symbolicate@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-transform-plugins",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-transform-plugins@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-transform-plugins@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "metro-transform-worker",
+      "version": "0.81.2",
+      "purl": "pkg:npm/metro-transform-worker@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/metro-transform-worker@0.81.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -3896,6 +6808,19 @@
       ]
     },
     {
+      "name": "mitt",
+      "version": "3.0.1",
+      "purl": "pkg:npm/mitt@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/mitt@3.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "mkdirp",
       "version": "1.0.4",
       "purl": "pkg:npm/mkdirp@1.0.4",
@@ -3961,6 +6886,32 @@
       ]
     },
     {
+      "name": "neo-async",
+      "version": "2.6.2",
+      "purl": "pkg:npm/neo-async@2.6.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/neo-async@2.6.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "netmask",
+      "version": "2.0.2",
+      "purl": "pkg:npm/netmask@2.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/netmask@2.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "node-addon-api",
       "version": "5.1.0",
       "purl": "pkg:npm/node-addon-api@5.1.0",
@@ -3979,6 +6930,19 @@
       "purl": "pkg:npm/node-fetch@2.7.0",
       "type": "library",
       "bom-ref": "pkg:npm/node-fetch@2.7.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "node-forge",
+      "version": "1.3.1",
+      "purl": "pkg:npm/node-forge@1.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/node-forge@1.3.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4078,6 +7042,32 @@
       ]
     },
     {
+      "name": "nullthrows",
+      "version": "1.1.1",
+      "purl": "pkg:npm/nullthrows@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/nullthrows@1.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ob1",
+      "version": "0.81.2",
+      "purl": "pkg:npm/ob1@0.81.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/ob1@0.81.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "object-assign",
       "version": "4.1.1",
       "purl": "pkg:npm/object-assign@4.1.1",
@@ -4096,6 +7086,19 @@
       "purl": "pkg:npm/object-inspect@1.13.3",
       "type": "library",
       "bom-ref": "pkg:npm/object-inspect@1.13.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "on-finished",
+      "version": "2.3.0",
+      "purl": "pkg:npm/on-finished@2.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/on-finished@2.3.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4143,6 +7146,19 @@
       ]
     },
     {
+      "name": "open",
+      "version": "7.4.2",
+      "purl": "pkg:npm/open@7.4.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/open@7.4.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "p-limit",
       "version": "2.3.0",
       "purl": "pkg:npm/p-limit@2.3.0",
@@ -4161,6 +7177,19 @@
       "purl": "pkg:npm/p-limit@3.1.0",
       "type": "library",
       "bom-ref": "pkg:npm/p-limit@3.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "p-locate",
+      "version": "3.0.0",
+      "purl": "pkg:npm/p-locate@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/p-locate@3.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4195,6 +7224,58 @@
       ]
     },
     {
+      "name": "pac-proxy-agent",
+      "version": "7.2.0",
+      "purl": "pkg:npm/pac-proxy-agent@7.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/pac-proxy-agent@7.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "pac-resolver",
+      "version": "7.0.1",
+      "purl": "pkg:npm/pac-resolver@7.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/pac-resolver@7.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "parent-module",
+      "version": "1.0.1",
+      "purl": "pkg:npm/parent-module@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/parent-module@1.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "parse-json",
+      "version": "4.0.0",
+      "purl": "pkg:npm/parse-json@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/parse-json@4.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "parse-json",
       "version": "5.2.0",
       "purl": "pkg:npm/parse-json@5.2.0",
@@ -4213,6 +7294,19 @@
       "purl": "pkg:npm/parseurl@1.3.3",
       "type": "library",
       "bom-ref": "pkg:npm/parseurl@1.3.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "path-exists",
+      "version": "3.0.0",
+      "purl": "pkg:npm/path-exists@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/path-exists@3.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4278,6 +7372,19 @@
       "purl": "pkg:npm/path-to-regexp@0.1.10",
       "type": "library",
       "bom-ref": "pkg:npm/path-to-regexp@0.1.10",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "pend",
+      "version": "1.2.0",
+      "purl": "pkg:npm/pend@1.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/pend@1.2.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4416,11 +7523,37 @@
       ]
     },
     {
+      "name": "pify",
+      "version": "4.0.1",
+      "purl": "pkg:npm/pify@4.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/pify@4.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "pirates",
       "version": "4.0.6",
       "purl": "pkg:npm/pirates@4.0.6",
       "type": "library",
       "bom-ref": "pkg:npm/pirates@4.0.6",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "pkg-dir",
+      "version": "3.0.0",
+      "purl": "pkg:npm/pkg-dir@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/pkg-dir@3.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4507,6 +7640,32 @@
       ]
     },
     {
+      "name": "progress",
+      "version": "2.0.3",
+      "purl": "pkg:npm/progress@2.0.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/progress@2.0.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "promise",
+      "version": "8.3.0",
+      "purl": "pkg:npm/promise@8.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/promise@8.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "prompts",
       "version": "2.4.2",
       "purl": "pkg:npm/prompts@2.4.2",
@@ -4525,6 +7684,19 @@
       "purl": "pkg:npm/proxy-addr@2.0.7",
       "type": "library",
       "bom-ref": "pkg:npm/proxy-addr@2.0.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "proxy-agent",
+      "version": "6.5.0",
+      "purl": "pkg:npm/proxy-agent@6.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/proxy-agent@6.5.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4559,6 +7731,71 @@
       ]
     },
     {
+      "name": "pubnub",
+      "version": "8.9.1",
+      "purl": "pkg:npm/pubnub@8.9.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/pubnub@8.9.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "pump",
+      "version": "3.0.2",
+      "purl": "pkg:npm/pump@3.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/pump@3.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "punycode",
+      "version": "2.3.1",
+      "purl": "pkg:npm/punycode@2.3.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/punycode@2.3.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "puppeteer",
+      "version": "24.3.0",
+      "purl": "pkg:npm/puppeteer@24.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/puppeteer@24.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "puppeteer-core",
+      "version": "24.3.0",
+      "purl": "pkg:npm/puppeteer-core@24.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/puppeteer-core@24.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "pure-rand",
       "version": "6.1.0",
       "purl": "pkg:npm/pure-rand@6.1.0",
@@ -4577,6 +7814,19 @@
       "purl": "pkg:npm/qs@6.13.0",
       "type": "library",
       "bom-ref": "pkg:npm/qs@6.13.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "queue",
+      "version": "6.0.2",
+      "purl": "pkg:npm/queue@6.0.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/queue@6.0.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4611,11 +7861,76 @@
       ]
     },
     {
+      "name": "react",
+      "version": "19.0.0",
+      "purl": "pkg:npm/react@19.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/react@19.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "react-devtools-core",
+      "version": "6.1.1",
+      "purl": "pkg:npm/react-devtools-core@6.1.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/react-devtools-core@6.1.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "react-is",
       "version": "18.3.1",
       "purl": "pkg:npm/react-is@18.3.1",
       "type": "library",
       "bom-ref": "pkg:npm/react-is@18.3.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "react-native",
+      "version": "0.78.0",
+      "purl": "pkg:npm/react-native@0.78.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/react-native@0.78.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "react-native-url-polyfill",
+      "version": "2.0.0",
+      "purl": "pkg:npm/react-native-url-polyfill@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/react-native-url-polyfill@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "react-refresh",
+      "version": "0.14.2",
+      "purl": "pkg:npm/react-refresh@0.14.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/react-refresh@0.14.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4642,6 +7957,136 @@
       "purl": "pkg:npm/readdirp@3.6.0",
       "type": "library",
       "bom-ref": "pkg:npm/readdirp@3.6.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "readline",
+      "version": "1.3.0",
+      "purl": "pkg:npm/readline@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/readline@1.3.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "recast",
+      "version": "0.23.9",
+      "purl": "pkg:npm/recast@0.23.9",
+      "type": "library",
+      "bom-ref": "pkg:npm/recast@0.23.9",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regenerate",
+      "version": "1.4.2",
+      "purl": "pkg:npm/regenerate@1.4.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/regenerate@1.4.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regenerate-unicode-properties",
+      "version": "10.2.0",
+      "purl": "pkg:npm/regenerate-unicode-properties@10.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/regenerate-unicode-properties@10.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regenerator-runtime",
+      "version": "0.13.11",
+      "purl": "pkg:npm/regenerator-runtime@0.13.11",
+      "type": "library",
+      "bom-ref": "pkg:npm/regenerator-runtime@0.13.11",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regenerator-runtime",
+      "version": "0.14.1",
+      "purl": "pkg:npm/regenerator-runtime@0.14.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/regenerator-runtime@0.14.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regenerator-transform",
+      "version": "0.15.2",
+      "purl": "pkg:npm/regenerator-transform@0.15.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/regenerator-transform@0.15.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regexpu-core",
+      "version": "6.2.0",
+      "purl": "pkg:npm/regexpu-core@6.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/regexpu-core@6.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regjsgen",
+      "version": "0.8.0",
+      "purl": "pkg:npm/regjsgen@0.8.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/regjsgen@0.8.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "regjsparser",
+      "version": "0.12.0",
+      "purl": "pkg:npm/regjsparser@0.12.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/regjsparser@0.12.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4681,6 +8126,32 @@
       "purl": "pkg:npm/resolve-cwd@3.0.0",
       "type": "library",
       "bom-ref": "pkg:npm/resolve-cwd@3.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "resolve-from",
+      "version": "3.0.0",
+      "purl": "pkg:npm/resolve-from@3.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/resolve-from@3.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "resolve-from",
+      "version": "4.0.0",
+      "purl": "pkg:npm/resolve-from@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/resolve-from@4.0.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4754,6 +8225,45 @@
       ]
     },
     {
+      "name": "scheduler",
+      "version": "0.25.0",
+      "purl": "pkg:npm/scheduler@0.25.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/scheduler@0.25.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "selfsigned",
+      "version": "2.4.1",
+      "purl": "pkg:npm/selfsigned@2.4.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/selfsigned@2.4.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "semver",
+      "version": "5.7.2",
+      "purl": "pkg:npm/semver@5.7.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/semver@5.7.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "semver",
       "version": "6.3.1",
       "purl": "pkg:npm/semver@6.3.1",
@@ -4785,6 +8295,19 @@
       "purl": "pkg:npm/send@0.19.0",
       "type": "library",
       "bom-ref": "pkg:npm/send@0.19.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "serialize-error",
+      "version": "2.1.0",
+      "purl": "pkg:npm/serialize-error@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/serialize-error@2.1.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4845,6 +8368,19 @@
       ]
     },
     {
+      "name": "shallow-clone",
+      "version": "3.0.1",
+      "purl": "pkg:npm/shallow-clone@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/shallow-clone@3.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "shebang-command",
       "version": "2.0.0",
       "purl": "pkg:npm/shebang-command@2.0.0",
@@ -4871,6 +8407,19 @@
       ]
     },
     {
+      "name": "shell-quote",
+      "version": "1.8.2",
+      "purl": "pkg:npm/shell-quote@1.8.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/shell-quote@1.8.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "side-channel",
       "version": "1.0.6",
       "purl": "pkg:npm/side-channel@1.0.6",
@@ -4889,6 +8438,19 @@
       "purl": "pkg:npm/signal-exit@3.0.7",
       "type": "library",
       "bom-ref": "pkg:npm/signal-exit@3.0.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "purl": "pkg:npm/signal-exit@4.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/signal-exit@4.1.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4936,6 +8498,97 @@
       ]
     },
     {
+      "name": "smart-buffer",
+      "version": "4.2.0",
+      "purl": "pkg:npm/smart-buffer@4.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/smart-buffer@4.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "socket.io",
+      "version": "4.8.1",
+      "purl": "pkg:npm/socket.io@4.8.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/socket.io@4.8.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "socket.io-adapter",
+      "version": "2.5.5",
+      "purl": "pkg:npm/socket.io-adapter@2.5.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/socket.io-adapter@2.5.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "socket.io-parser",
+      "version": "4.2.4",
+      "purl": "pkg:npm/socket.io-parser@4.2.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/socket.io-parser@4.2.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "socks",
+      "version": "2.8.4",
+      "purl": "pkg:npm/socks@2.8.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/socks@2.8.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "socks-proxy-agent",
+      "version": "8.0.5",
+      "purl": "pkg:npm/socks-proxy-agent@8.0.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/socks-proxy-agent@8.0.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "source-map",
+      "version": "0.5.7",
+      "purl": "pkg:npm/source-map@0.5.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/source-map@0.5.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "source-map",
       "version": "0.6.1",
       "purl": "pkg:npm/source-map@0.6.1",
@@ -4954,6 +8607,19 @@
       "purl": "pkg:npm/source-map-support@0.5.13",
       "type": "library",
       "bom-ref": "pkg:npm/source-map-support@0.5.13",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "source-map-support",
+      "version": "0.5.21",
+      "purl": "pkg:npm/source-map-support@0.5.21",
+      "type": "library",
+      "bom-ref": "pkg:npm/source-map-support@0.5.21",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4988,6 +8654,19 @@
       ]
     },
     {
+      "name": "sprintf-js",
+      "version": "1.1.3",
+      "purl": "pkg:npm/sprintf-js@1.1.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/sprintf-js@1.1.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "stack-utils",
       "version": "2.0.6",
       "purl": "pkg:npm/stack-utils@2.0.6",
@@ -5001,11 +8680,63 @@
       ]
     },
     {
+      "name": "stackframe",
+      "version": "1.3.4",
+      "purl": "pkg:npm/stackframe@1.3.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/stackframe@1.3.4",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "stacktrace-parser",
+      "version": "0.1.11",
+      "purl": "pkg:npm/stacktrace-parser@0.1.11",
+      "type": "library",
+      "bom-ref": "pkg:npm/stacktrace-parser@0.1.11",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "statuses",
+      "version": "1.5.0",
+      "purl": "pkg:npm/statuses@1.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/statuses@1.5.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "statuses",
       "version": "2.0.1",
       "purl": "pkg:npm/statuses@2.0.1",
       "type": "library",
       "bom-ref": "pkg:npm/statuses@2.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "streamx",
+      "version": "2.22.0",
+      "purl": "pkg:npm/streamx@2.22.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/streamx@2.22.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -5196,11 +8927,115 @@
       ]
     },
     {
+      "name": "tar-fs",
+      "version": "3.0.8",
+      "purl": "pkg:npm/tar-fs@3.0.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/tar-fs@3.0.8",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "tar-stream",
+      "version": "3.1.7",
+      "purl": "pkg:npm/tar-stream@3.1.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/tar-stream@3.1.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "terser",
+      "version": "5.39.0",
+      "purl": "pkg:npm/terser@5.39.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/terser@5.39.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "test-exclude",
       "version": "6.0.0",
       "purl": "pkg:npm/test-exclude@6.0.0",
       "type": "library",
       "bom-ref": "pkg:npm/test-exclude@6.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "text-decoder",
+      "version": "1.2.3",
+      "purl": "pkg:npm/text-decoder@1.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/text-decoder@1.2.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "text-encoding",
+      "version": "0.7.0",
+      "purl": "pkg:npm/text-encoding@0.7.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/text-encoding@0.7.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "throat",
+      "version": "5.0.0",
+      "purl": "pkg:npm/throat@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/throat@5.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "tiny-invariant",
+      "version": "1.3.3",
+      "purl": "pkg:npm/tiny-invariant@1.3.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/tiny-invariant@1.3.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "tmp",
+      "version": "0.2.3",
+      "purl": "pkg:npm/tmp@0.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/tmp@0.2.3",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -5274,6 +9109,19 @@
       ]
     },
     {
+      "name": "tslib",
+      "version": "2.8.1",
+      "purl": "pkg:npm/tslib@2.8.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/tslib@2.8.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "type-detect",
       "version": "4.0.8",
       "purl": "pkg:npm/type-detect@4.0.8",
@@ -5300,11 +9148,37 @@
       ]
     },
     {
+      "name": "type-fest",
+      "version": "0.7.1",
+      "purl": "pkg:npm/type-fest@0.7.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/type-fest@0.7.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "type-is",
       "version": "1.6.18",
       "purl": "pkg:npm/type-is@1.6.18",
       "type": "library",
       "bom-ref": "pkg:npm/type-is@1.6.18",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "typed-query-selector",
+      "version": "2.12.0",
+      "purl": "pkg:npm/typed-query-selector@2.12.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/typed-query-selector@2.12.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -5331,6 +9205,58 @@
       "purl": "pkg:npm/undici-types@6.20.0",
       "type": "library",
       "bom-ref": "pkg:npm/undici-types@6.20.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "unicode-canonical-property-names-ecmascript",
+      "version": "2.0.1",
+      "purl": "pkg:npm/unicode-canonical-property-names-ecmascript@2.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/unicode-canonical-property-names-ecmascript@2.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "unicode-match-property-ecmascript",
+      "version": "2.0.0",
+      "purl": "pkg:npm/unicode-match-property-ecmascript@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/unicode-match-property-ecmascript@2.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "unicode-match-property-value-ecmascript",
+      "version": "2.2.0",
+      "purl": "pkg:npm/unicode-match-property-value-ecmascript@2.2.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/unicode-match-property-value-ecmascript@2.2.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "unicode-property-aliases-ecmascript",
+      "version": "2.1.0",
+      "purl": "pkg:npm/unicode-property-aliases-ecmascript@2.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/unicode-property-aliases-ecmascript@2.1.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -5430,6 +9356,19 @@
       ]
     },
     {
+      "name": "vlq",
+      "version": "1.0.1",
+      "purl": "pkg:npm/vlq@1.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/vlq@1.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "walker",
       "version": "1.0.8",
       "purl": "pkg:npm/walker@1.0.8",
@@ -5456,11 +9395,50 @@
       ]
     },
     {
+      "name": "webidl-conversions",
+      "version": "5.0.0",
+      "purl": "pkg:npm/webidl-conversions@5.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/webidl-conversions@5.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "whatwg-fetch",
+      "version": "3.6.20",
+      "purl": "pkg:npm/whatwg-fetch@3.6.20",
+      "type": "library",
+      "bom-ref": "pkg:npm/whatwg-fetch@3.6.20",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "whatwg-url",
       "version": "5.0.0",
       "purl": "pkg:npm/whatwg-url@5.0.0",
       "type": "library",
       "bom-ref": "pkg:npm/whatwg-url@5.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "whatwg-url-without-unicode",
+      "version": "8.0.0-3",
+      "purl": "pkg:npm/whatwg-url-without-unicode@8.0.0-3",
+      "type": "library",
+      "bom-ref": "pkg:npm/whatwg-url-without-unicode@8.0.0-3",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -5526,6 +9504,71 @@
       "purl": "pkg:npm/write-file-atomic@4.0.2",
       "type": "library",
       "bom-ref": "pkg:npm/write-file-atomic@4.0.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "write-file-atomic",
+      "version": "5.0.1",
+      "purl": "pkg:npm/write-file-atomic@5.0.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/write-file-atomic@5.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "6.2.3",
+      "purl": "pkg:npm/ws@6.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/ws@6.2.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "7.5.10",
+      "purl": "pkg:npm/ws@7.5.10",
+      "type": "library",
+      "bom-ref": "pkg:npm/ws@7.5.10",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "8.17.1",
+      "purl": "pkg:npm/ws@8.17.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ws@8.17.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "ws",
+      "version": "8.18.1",
+      "purl": "pkg:npm/ws@8.18.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ws@8.18.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -5612,11 +9655,37 @@
       ]
     },
     {
+      "name": "yauzl",
+      "version": "2.10.0",
+      "purl": "pkg:npm/yauzl@2.10.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/yauzl@2.10.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "yocto-queue",
       "version": "0.1.0",
       "purl": "pkg:npm/yocto-queue@0.1.0",
       "type": "library",
       "bom-ref": "pkg:npm/yocto-queue@0.1.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "zod",
+      "version": "3.24.2",
+      "purl": "pkg:npm/zod@3.24.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/zod@3.24.2",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
