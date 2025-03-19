@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:50f1724e-438b-46fe-a2b6-af6054ff8590",
+  "serialNumber": "urn:uuid:131cccc3-f057-4a0d-9c10-e84f8f0223ef",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-02-28T13:32:53Z",
+    "timestamp": "2025-03-19T13:42:05Z",
     "tools": [
       {
         "vendor": "GitLab",
@@ -3688,6 +3688,19 @@
       ]
     },
     {
+      "name": "cookie-parser",
+      "version": "1.4.7",
+      "purl": "pkg:npm/cookie-parser@1.4.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie-parser@1.4.7",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "cookie-signature",
       "version": "1.0.6",
       "purl": "pkg:npm/cookie-signature@1.0.6",
@@ -5903,6 +5916,19 @@
       "purl": "pkg:npm/jest-worker@29.7.0",
       "type": "library",
       "bom-ref": "pkg:npm/jest-worker@29.7.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "js-cookie",
+      "version": "3.0.5",
+      "purl": "pkg:npm/js-cookie@3.0.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/js-cookie@3.0.5",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
