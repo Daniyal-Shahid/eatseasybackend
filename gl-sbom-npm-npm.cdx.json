@@ -1,10 +1,10 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:1fa93b85-5fb1-4b24-914a-c2c1570b7876",
+  "serialNumber": "urn:uuid:3cc20af7-bce5-45ae-8135-ff4bb85289a7",
   "version": 1,
   "metadata": {
-    "timestamp": "2025-03-25T10:37:09Z",
+    "timestamp": "2025-03-25T16:45:31Z",
     "tools": [
       {
         "vendor": "GitLab",
@@ -2350,10 +2350,36 @@
     },
     {
       "name": "@types/node",
+      "version": "18.19.83",
+      "purl": "pkg:npm/@types/node@18.19.83",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/node@18.19.83",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@types/node",
       "version": "22.13.1",
       "purl": "pkg:npm/@types/node@22.13.1",
       "type": "library",
       "bom-ref": "pkg:npm/@types/node@22.13.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "@types/node-fetch",
+      "version": "2.6.12",
+      "purl": "pkg:npm/@types/node-fetch@2.6.12",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/node-fetch@2.6.12",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -2510,6 +2536,19 @@
       "purl": "pkg:npm/agentkeepalive@3.5.3",
       "type": "library",
       "bom-ref": "pkg:npm/agentkeepalive@3.5.3",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "agentkeepalive",
+      "version": "4.6.0",
+      "purl": "pkg:npm/agentkeepalive@4.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/agentkeepalive@4.6.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -4668,6 +4707,32 @@
       "purl": "pkg:npm/form-data@4.0.1",
       "type": "library",
       "bom-ref": "pkg:npm/form-data@4.0.1",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "form-data-encoder",
+      "version": "1.7.2",
+      "purl": "pkg:npm/form-data-encoder@1.7.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/form-data-encoder@1.7.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "formdata-node",
+      "version": "4.4.1",
+      "purl": "pkg:npm/formdata-node@4.4.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/formdata-node@4.4.1",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -6964,6 +7029,19 @@
       ]
     },
     {
+      "name": "node-domexception",
+      "version": "1.0.0",
+      "purl": "pkg:npm/node-domexception@1.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/node-domexception@1.0.0",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
       "name": "node-fetch",
       "version": "2.7.0",
       "purl": "pkg:npm/node-fetch@2.7.0",
@@ -7190,6 +7268,19 @@
       "purl": "pkg:npm/open@7.4.2",
       "type": "library",
       "bom-ref": "pkg:npm/open@7.4.2",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "openai",
+      "version": "4.89.0",
+      "purl": "pkg:npm/openai@4.89.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/openai@4.89.0",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
@@ -9240,6 +9331,19 @@
     },
     {
       "name": "undici-types",
+      "version": "5.26.5",
+      "purl": "pkg:npm/undici-types@5.26.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/undici-types@5.26.5",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "undici-types",
       "version": "6.20.0",
       "purl": "pkg:npm/undici-types@6.20.0",
       "type": "library",
@@ -9413,6 +9517,19 @@
       "purl": "pkg:npm/walker@1.0.8",
       "type": "library",
       "bom-ref": "pkg:npm/walker@1.0.8",
+      "properties": [
+        {
+          "name": "gitlab:dependency_scanning_component:reachability",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "web-streams-polyfill",
+      "version": "4.0.0-beta.3",
+      "purl": "pkg:npm/web-streams-polyfill@4.0.0-beta.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/web-streams-polyfill@4.0.0-beta.3",
       "properties": [
         {
           "name": "gitlab:dependency_scanning_component:reachability",
